@@ -1,0 +1,744 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chakilela Srividhya | AIML Enthusiast</title>
+    <link rel="icon" href="data:,">
+    <link rel="icon" type="image/x-icon" href="data:,">
+    <link rel="shortcut icon" href="data:,">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Theme Toggle -->
+    <div class="theme-toggle" id="themeToggle">
+        <span class="theme-icon sun">☀️</span>
+        <span class="theme-icon moon">🌙</span>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">
+                <span class="logo-text">S</span>
+                <span class="logo-glow"></span>
+            </a>
+            <div class="nav-menu" id="navMenu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#education" class="nav-link">Education</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#internships" class="nav-link">Internships</a>
+                <a href="#certifications" class="nav-link">Certifications</a>
+                <a href="#resume" class="nav-link">Resume</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-bg">
+            <div class="grid-overlay"></div>
+            <div class="gradient-orb orb-1"></div>
+            <div class="gradient-orb orb-2"></div>
+        </div>
+        <div class="hero-content">
+            <p class="hero-greeting">Hello, I'm</p>
+            <h1 class="hero-name">Chakilela Srividhya</h1>
+            <div class="hero-roles">
+                <span class="role-label">I'm an </span>
+                <span class="typing-text" id="typingText"></span>
+                <span class="cursor-blink">|</span>
+            </div>
+            <p class="hero-tagline">Breaking down complex problems and rebuilding them into practical, impactful solutions</p>
+            <div class="hero-cta">
+                <a href="#contact" class="btn btn-primary">Contact Me</a>
+            </div>
+            <div class="hero-social">
+                <a href="https://www.linkedin.com/in/srividhya-chakilela/" target="_blank" class="social-link" aria-label="LinkedIn">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                </a>
+                <a href="https://github.com/Srividhya09" target="_blank" class="social-link" aria-label="GitHub">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                </a>
+                <a href="https://medium.com/@srividhyachakilela" target="_blank" class="social-link" aria-label="Medium">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.01 6.88c.02-.19-.05-.37-.19-.5L.05 4.26V4h5.57l4.3 9.42 3.78-9.42H19v.26l-1.51 1.45c-.13.1-.2.27-.18.43v10.71c-.02.16.05.32.18.43L19 18.72V19h-7.62v-.28l1.56-1.52c.15-.15.15-.19.15-.43V8.12l-4.34 10.86h-.59L3.02 8.12v7.3c-.04.31.06.63.27.86l2.03 2.47V19H0v-.25l2.03-2.47c.2-.23.29-.55.25-.86V6.88z"></path></svg>
+                </a>
+            </div>
+        </div>
+        <a href="#about" class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+        </a>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">// About Me</span>
+                <h2 class="section-title">Get to Know Me</h2>
+            </div>
+            <div class="about-content">
+                <div class="about-image">
+                    <div class="image-frame">
+                        <img src="Profile.jpeg" alt="Chakilela Srividhya" class="profile-image">
+                        <div class="image-border"></div>
+                    </div>
+                </div>
+                <div class="about-text">
+                    <h3>AIML & Data Enthusiast</h3>
+                    <p>I'm a B.Tech Computer Science (AI & ML) undergraduate who enjoys breaking down complex problems and rebuilding them into practical, working solutions. I'm driven by curiosity around why algorithms perform the way they do, and how they can be refined to work reliably in real-world scenarios.</p>
+                    <p>My journey combines strong academic foundations with real industry exposure. I completed an internship at Walmart Global Tech, gaining firsthand experience in how large-scale, production-level systems are designed, evaluated, and improved. I've worked on projects that strengthened my ability to translate theory into impact through ML.</p>
+                    <p>I actively challenge myself beyond coursework by participating in hackathons like the IBM Generative AI Hackathon, where I sharpened my teamwork and solution-design skills under real constraints. With hands-on experience in Python, SQL, Machine Learning, and Generative AI tools, I focus on building solutions that are innovative, useful, scalable, and thoughtfully engineered.</p>
+                    <!-- <div class="about-highlights">
+                        <div class="highlight-item">
+                            <span class="highlight-number">10+</span>
+                            <span class="highlight-label">Projects Completed</span>
+                        </div>
+                        <div class="highlight-item">
+                            <span class="highlight-number">5+</span>
+                            <span class="highlight-label">Certifications</span>
+                        </div>
+                        <div class="highlight-item">
+                            <span class="highlight-number">1</span>
+                            <span class="highlight-label">Internship</span>
+                        </div>
+                    </div> -->
+                    <div class="about-cta">
+                        <a href="#projects" class="btn btn-primary">Explore My Work</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">// Education</span>
+                <h2 class="section-title">Academic Background</h2>
+            </div>
+            <div class="timeline">
+                <!-- B.Tech - Right Side -->
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="education-card">
+                            <div class="education-header">
+                                <h3>Bachelor of Technology in Artificial Intelligence & Machine Learning</h3>
+                            </div>
+                            <p class="education-institution">MallaReddy Engineering College for Women</p>
+                            <div class="education-details">
+                                <span class="education-duration">2022 - 2026</span>
+                                <span class="education-cgpa">CGPA: 9.7/10</span>
+                            </div>
+                            <div class="education-coursework">
+                                <h4>Relevant Coursework:</h4>
+                                <div class="course-tags">
+                                    <span class="course-tag">Machine Learning</span>
+                                    <span class="course-tag">Deep Learning</span>
+                                    <span class="course-tag">Computer Vision</span>
+                                    <span class="course-tag">NLP</span>
+                                    <span class="course-tag">Data Structures</span>
+                                    <span class="course-tag">DBMS</span>
+                                    <span class="course-tag">OOPS</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Intermediate - Right Side -->
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="education-card">
+                            <div class="education-header">
+                                <h3>Intermediate Education</h3>
+                            </div>
+                            <p class="education-institution">SriChaitanya Junior College</p>
+                            <div class="education-details">
+                                <span class="education-duration">2020 - 2022</span>
+                                <span class="education-cgpa">Percentage: 98.4%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- 10th - Right Side -->
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="education-card">
+                            <div class="education-header">
+                                <h3>Secondary School Education</h3>
+                            </div>
+                            <p class="education-institution">Ekashila Public School</p>
+                            <div class="education-details">
+                                <span class="education-duration">2019 - 2020</span>
+                                <span class="education-cgpa">CGPA: 10/10</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">// Projects</span>
+                <h2 class="section-title">Featured Projects</h2>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="projects_logos/project1.png" alt="Synthetic ECG Signal Generator">
+                    </div>
+                    <div class="project-content">
+                        <h3>Synthetic ECG Signal Generator</h3>
+                        <p>Developed a GAN model generating 6000+ synthetic ECG signals with 85% lower baseline distance, deployed via a real-time Streamlit application.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">TensorFlow</span>
+                            <span class="tech-tag">GANs</span>
+                            <span class="tech-tag">Streamlit</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Srividhya09/Synthetic-ECG-Signals-Generation-GANs-" target="_blank" class="project-link">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                                Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="projects_logos/project2.png" alt="Brain Tumor Detection">
+                    </div>
+                    <div class="project-content">
+                        <h3>Brain Tumor Detection Using X-Ray Images</h3>
+                        <p>Built a CNN-based tumor detection system achieving 96% accuracy with segmentation and an interactive diagnostic GUI.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Keras</span>
+                            <span class="tech-tag">Scikit-learn</span>
+                            <span class="tech-tag">OpenCV</span>
+                            <span class="tech-tag">Tkinter</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Srividhya09/BrainTumor" target="_blank" class="project-link">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                                Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="projects_logos/project3.png" alt="Seeing Beyond Sight">
+                    </div>
+                    <div class="project-content">
+                        <h3>Seeing Beyond Sight</h3>
+                        <p>An AI-based assistive system designed to help visually impaired individuals understand their surroundings through image analysis, object detection, text reading, and personalized assistance.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">OpenCV</span>
+                            <span class="tech-tag">YOLO</span>
+                            <span class="tech-tag">pytesseract</span>
+                            <span class="tech-tag">pyttsx3</span>
+                            <span class="tech-tag">Streamlit</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Srividhya09/Seeing-Beyond-Sight" target="_blank" class="project-link">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                                Code
+                            </a>
+                        </div>
+                    </div>
+                <!-- <div class="project-card">
+                    <div class="project-icon">🖼️</div>
+                    <div class="project-content">
+                        <h3>Object Detection & Tracking</h3>
+                        <p>Implemented YOLO-based real-time object detection and tracking system for video surveillance.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">YOLO</span>
+                            <span class="tech-tag">OpenCV</span>
+                            <span class="tech-tag">PyTorch</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                                Code
+                            </a>
+                            <a href="#" class="project-link">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                                Demo
+                            </a>
+                        </div>
+                    </div>
+                </div> -->
+                <!-- <div class="project-card">
+                    <div class="project-icon">🤖</div>
+                    <div class="project-content">
+                        <h3>Chatbot with RAG Architecture</h3>
+                        <p>Built an intelligent chatbot using Retrieval-Augmented Generation for accurate, context-aware responses.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">LangChain</span>
+                            <span class="tech-tag">LLM</span>
+                            <span class="tech-tag">Vector DB</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                                Code
+                            </a>
+                            <a href="#" class="project-link">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                                Demo
+                            </a>
+                        </div>
+                    </div>
+                </div> -->
+                <!-- <div class="project-card">
+                    <div class="project-icon">📈</div>
+                    <div class="project-content"> -->
+                        <!-- <h3>Stock Price Prediction</h3>
+                        <p>Developed LSTM-based model for stock price prediction with real-time market data integration.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">LSTM</span>
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Alpha Vantage</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                                Code
+                            </a>
+                            <a href="#" class="project-link">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                                Demo
+                            </a>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">// Skills</span>
+                <h2 class="section-title">Technical Proficiency</h2>
+            </div>
+            <div class="skills-tags-grid">
+                <div class="skills-category">
+                    <h3 class="category-title">
+                        <span class="category-icon">💻</span>
+                        Programming
+                    </h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">Java</span>
+                        <span class="skill-tag">SQL</span>
+                        <span class="skill-tag">C</span>
+                    </div>
+                </div>
+                <div class="skills-category">
+                    <h3 class="category-title">
+                        <span class="category-icon">⚡</span>
+                        Data Engineering
+                    </h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">PySpark</span>
+                        <span class="skill-tag">Azure Databricks</span>
+                        <span class="skill-tag">ETL Pipelines</span>
+                    </div>
+                </div>
+                <div class="skills-category">
+                    <h3 class="category-title">
+                        <span class="category-icon">🧠</span>
+                        Machine Learning & AI
+                    </h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">TensorFlow</span>
+                        <span class="skill-tag">Keras</span>
+                        <span class="skill-tag">Scikit-learn</span>
+                        <span class="skill-tag">Deep Learning</span>
+                        <span class="skill-tag">NLP</span>
+                    </div>
+                </div>
+                <div class="skills-category">
+                    <h3 class="category-title">
+                        <span class="category-icon">📊</span>
+                        Data Analysis
+                    </h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Pandas</span>
+                        <span class="skill-tag">NumPy</span>
+                    </div>
+                </div>
+                <div class="skills-category">
+                    <h3 class="category-title">
+                        <span class="category-icon">🛠️</span>
+                        Tools
+                    </h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Git</span>
+                        <span class="skill-tag">GitHub</span>
+                        <span class="skill-tag">Jupyter Notebook</span>
+                        <span class="skill-tag">Google Colab</span>
+                        <span class="skill-tag">Streamlit</span>
+                        <span class="skill-tag">VS Code</span>
+                    </div>
+                </div>
+                <div class="skills-category">
+                    <h3 class="category-title">
+                        <span class="category-icon">🗄️</span>
+                        Databases
+                    </h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">MySQL</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Internships Section -->
+    <section id="internships" class="section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">// Internships</span>
+                <h2 class="section-title">Professional Experience</h2>
+            </div>
+
+            <!-- Vertical Timeline -->
+            <div class="vertical-timeline">
+                
+                <!-- Walmart Internship -->
+                <div class="vertical-timeline-item">
+                    <div class="vertical-timeline-marker"></div>
+                    <div class="vertical-timeline-line"></div>
+                    <div class="vertical-timeline-content">
+                        <!-- Header -->
+                        <div class="exp-header">
+                            <div class="exp-header-left">
+                                <h3 class="exp-role">Software Engineer Intern (Data Science)</h3>
+                                <p class="exp-company">Walmart Global Tech</p>
+                                <p class="exp-location">📍 Bangalore, India</p>
+                            </div>
+                            <div class="exp-header-right">
+                                <span class="exp-duration">May 2025 – July 2025</span>
+                            </div>
+                        </div>
+
+                        <!-- Impact Section -->
+                        <div class="exp-section exp-impact">
+                            <h4 class="exp-section-title">📊 Impact</h4>
+                            <ul class="exp-list">
+                                <li><strong>Improved delivery timeliness by 3%</strong> through ML forecasting models</li>
+                                <li><strong>Processed 4M+ records</strong> via scalable ETL pipelines</li>
+                            </ul>
+                        </div>
+
+                        <!-- What I Did Section -->
+                        <div class="exp-section exp-what-i-did">
+                            <h4 class="exp-section-title">⚙️ What I Did</h4>
+                            <ul class="exp-list">
+                                <li>Built and optimized ensemble machine learning models for supply chain forecasting</li>
+                                <li>Developed PySpark ETL pipelines on Azure Databricks</li>
+                                <li>Built end-to-end ML retraining pipelines</li>
+                                <li>Collaborated with cross-functional teams to benchmark models</li>
+                            </ul>
+                        </div>
+
+                        <!-- Tech Stack Section -->
+                        <div class="exp-section exp-tech-stack">
+                            <h4 class="exp-section-title">🛠 Tech Stack</h4>
+                            <div class="exp-tech-tags">
+                                <span class="exp-tech-tag">Python</span>
+                                <span class="exp-tech-tag">SQL</span>
+                                <span class="exp-tech-tag">Machine Learning</span>
+                                <span class="exp-tech-tag">PySpark</span>
+                                <span class="exp-tech-tag">Azure Databricks</span>
+                                <span class="exp-tech-tag">ETL</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Infosys Internship -->
+                <div class="vertical-timeline-item">
+                    <div class="vertical-timeline-marker"></div>
+                    <div class="vertical-timeline-line"></div>
+                    <div class="vertical-timeline-content">
+                        <!-- Header -->
+                        <div class="exp-header">
+                            <div class="exp-header-left">
+                                <h3 class="exp-role">Artificial Intelligence Intern</h3>
+                                <p class="exp-company">Infosys Springboard</p>
+                                <p class="exp-location">📍 Hyderabad, India</p>
+                            </div>
+                            <div class="exp-header-right">
+                                <span class="exp-duration">Oct 2024 – Dec 2024</span>
+                            </div>
+                        </div>
+
+                        <!-- Impact Section -->
+                        <div class="exp-section exp-impact">
+                            <h4 class="exp-section-title">📊 Impact</h4>
+                            <ul class="exp-list">
+                                <li><strong>Built NLP system achieving 92% accuracy</strong></li>
+                                <li><strong>Improved classification performance by 2%</strong></li>
+                            </ul>
+                        </div>
+
+                        <!-- What I Did Section -->
+                        <div class="exp-section exp-what-i-did">
+                            <h4 class="exp-section-title">⚙️ What I Did</h4>
+                            <ul class="exp-list">
+                                <li>Developed LingualSense multilingual NLP system using LSTM</li>
+                                <li>Conducted EDA and feature engineering</li>
+                                <li>Tuned models and evaluated performance</li>
+                                <li>Deployed inference workflows via Streamlit</li>
+                            </ul>
+                        </div>
+
+                        <!-- Tech Stack Section -->
+                        <div class="exp-section exp-tech-stack">
+                            <h4 class="exp-section-title">🛠 Tech Stack</h4>
+                            <div class="exp-tech-tags">
+                                <span class="exp-tech-tag">Python</span>
+                                <span class="exp-tech-tag">NLP</span>
+                                <span class="exp-tech-tag">LSTM</span>
+                                <span class="exp-tech-tag">Deep Learning</span>
+                                <span class="exp-tech-tag">Streamlit</span>
+                                <span class="exp-tech-tag">Git</span>
+                            </div>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Srividhya09/LingualSense" target="_blank" class="project-link">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                                Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">// Certifications</span>
+                <h2 class="section-title">Professional Certifications</h2>
+            </div>
+            <div class="certifications-grid">
+                <div class="certification-card certification-card-tall">
+                    <img src="certificates_logos/certificate1.png" alt="GenAI Academy Certificate" class="certification-img">
+                    <div class="certification-content">
+                        <h3>Google GenAI Academy</h3>
+                        <p class="certification-issuer">Issued by: Google Cloud & Hack2Skill</p>
+                        <p class="certification-date">May 2025</p>
+                        <a href="certificates_docs/GenAI_Academy.pdf" target="_blank" class="certification-link-box">
+                            <span>View Certificate</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="certification-card certification-card-tall">
+                    <img src="certificates_logos/certificate2.png" alt="Generative AI Certificate" class="certification-img">
+                    <div class="certification-content">
+                        <h3>Career Essentials in Generative AI</h3>
+                        <p class="certification-issuer">Issued by: Microsoft & LinkedIn</p>
+                        <p class="certification-date">August 2024</p>
+                        <a href="certificates_docs/Generative AI by Microsoft.pdf" target="_blank" class="certification-link-box">
+                            <span>View Certificate</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="certification-card certification-card-tall">
+                    <img src="certificates_logos/certificate3.png" alt="Data Analysis Certificate" class="certification-img">
+                    <div class="certification-content">
+                        <h3>Career Essentials in Data Analysis</h3>
+                        <p class="certification-issuer">Issued by: Microsoft & LinkedIn</p>
+                        <p class="certification-date">October 2024</p>
+                        <a href="certificates_docs/Data Analysis by Microsoft.pdf" target="_blank" class="certification-link-box">
+                            <span>View Certificate</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="certification-card certification-card-tall">
+                    <img src="certificates_logos/certificate4.png" alt="Machine Learning Certificate" class="certification-img">
+                    <div class="certification-content">
+                        <h3>Machine Learning</h3>
+                        <p class="certification-issuer">Issued by: Kaggle</p>
+                        <p class="certification-date">September 2024</p>
+                        <a href="certificates_docs/Machine Learning by Kaggle.pdf" target="_blank" class="certification-link-box">
+                            <span>View Certificate</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume" class="section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">// Resume</span>
+                <h2 class="section-title">Resume</h2>
+            </div>
+            
+            <div class="resume-preview-container">
+                <!-- Summary Card -->
+                <div class="resume-summary-card">
+                    <!-- <div class="resume-card-header">
+                        <div class="resume-icon">📋</div>
+                        <h3>Professional Summary</h3>
+                    </div> -->
+                    <p>AIML & Data Engineering enthusiast with hands-on experience from Walmart Global Tech internship. Passionate about building scalable ML solutions and leveraging AI for real-world impact.</p>
+                </div>
+
+                <!-- Key Highlights Grid -->
+                <div class="resume-highlights-grid">
+                    <div class="resume-highlight-card">
+                        <span class="resume-highlight-number">4M+</span>
+                        <span class="resume-highlight-label">Records Processed (Walmart)</span>
+                    </div>
+                    <div class="resume-highlight-card">
+                        <span class="resume-highlight-number">3%</span>
+                        <span class="resume-highlight-label">Business Impact (walmart)</span>
+                    </div>
+                    <div class="resume-highlight-card">
+                        <span class="resume-highlight-number">92%</span>
+                        <span class="resume-highlight-label">Model Accuracy</span>
+                    </div>
+                    <div class="resume-highlight-card">
+                        <span class="resume-highlight-number">2%</span>
+                        <span class="resume-highlight-label">Improved Performance</span>
+                    </div>
+                </div>
+
+                <!-- CTA Section -->
+                <div class="resume-cta-section">
+                    <a href="Ch.Srividhya_Resume.pdf" class="btn btn-primary btn-large" download="Ch.Srividhya_Resume.pdf">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+                        Download Full Resume
+                    </a>
+                    <p class="resume-format">PDF Format • Updated 2026</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">// Contact</span>
+                <h2 class="section-title">Get In Touch</h2>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Email</h3>
+                            <p>srividhyachakilela@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Location</h3>
+                            <p>Hyderabad, Telangana, India</p>
+                        </div>
+                    </div>
+                    <div class="contact-socials">
+                        <a href="https://www.linkedin.com/in/srividhya-chakilela/" target="_blank" class="social-icon" aria-label="LinkedIn">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                        </a>
+                        <a href="https://github.com/Srividhya09" target="_blank" class="social-icon" aria-label="GitHub">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                        </a>
+                        <a href="https://medium.com/@srividhyachakilela" target="_blank" class="social-link" aria-label="Medium">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.01 6.88c.02-.19-.05-.37-.19-.5L.05 4.26V4h5.57l4.3 9.42 3.78-9.42H19v.26l-1.51 1.45c-.13.1-.2.27-.18.43v10.71c-.02.16.05.32.18.43L19 18.72V19h-7.62v-.28l1.56-1.52c.15-.15.15-.19.15-.43V8.12l-4.34 10.86h-.59L3.02 8.12v7.3c-.04.31.06.63.27.86l2.03 2.47V19H0v-.25l2.03-2.47c.2-.23.29-.55.25-.86V6.88z"></path></svg>
+                        </a>
+                    </div>
+                </div>
+<form class="contact-form" id="contactForm" action="https://formspree.io/f/xpwzgvqr" method="POST">
+                    <div class="form-group">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+                        Send Message
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <span class="logo-text">S</span>
+                    <span>Chakilela Srividhya</span>
+                </div>
+                <p class="footer-text">© <span id="year"></span> Srividhya Chakilela. Crafted with curiosity and code.</p>
+                <script>
+                    document.getElementById("year").textContent = new Date().getFullYear();
+                </script>
+                <div class="footer-social">
+                    <a href="https://www.linkedin.com/in/srividhya-chakilela/" target="_blank" class="social-link" aria-label="LinkedIn">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                    </a>
+                    <a href="https://github.com/Srividhya09" target="_blank" class="social-link" aria-label="GitHub">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                    </a>
+                    <a href="https://medium.com/@srividhyachakilela" target="_blank" class="social-link" aria-label="Medium">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.01 6.88c.02-.19-.05-.37-.19-.5L.05 4.26V4h5.57l4.3 9.42 3.78-9.42H19v.26l-1.51 1.45c-.13.1-.2.27-.18.43v10.71c-.02.16.05.32.18.43L19 18.72V19h-7.62v-.28l1.56-1.52c.15-.15.15-.19.15-.43V8.12l-4.34 10.86h-.59L3.02 8.12v7.3c-.04.31.06.63.27.86l2.03 2.47V19H0v-.25l2.03-2.47c.2-.23.29-.55.25-.86V6.88z"></path></svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
