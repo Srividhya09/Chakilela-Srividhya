@@ -1,7 +1,3 @@
-/* ========================================
-   Portfolio Website - JavaScript
-   Created for: Chakilela Srividhya
-   ======================================== */
 
 // DOM Elements
 const navbar = document.querySelector('.navbar');
@@ -12,7 +8,7 @@ const typingText = document.getElementById('typingText');
 const contactForm = document.getElementById('contactForm');
 const themeToggle = document.getElementById('themeToggle');
 
-// Typing Animation - Updated for Srividhya
+// Typing Animation
 const roles = [
     'Aspiring ML Engineer',
     'AI & Data Engineering Enthusiast',
