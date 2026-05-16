@@ -26,6 +26,7 @@ I'm a B.Tech Computer Science (AI & ML) undergraduate passionate about leveragin
 | [Synthetic ECG Signal Generator](https://github.com/Srividhya09/Synthetic-ECG-Signals-Generation-GANs-) | GAN-based model generating synthetic ECG signals with 85% lower baseline distance | Python, TensorFlow, GANs, Streamlit |
 | [Brain Tumor Detection](https://github.com/Srividhya09/BrainTumor) | CNN-based X-ray tumor detection system with 96% accuracy | Python, Keras, OpenCV, Tkinter |
 | [Seeing Beyond Sight](https://github.com/Srividhya09/Seeing-Beyond-Sight) | AI assistant helping visually impaired understand surroundings | Python, YOLO, OpenCV, pytesseract |
+| [GeoVision: AI Super-Resolution for Satellite Imagery](https://github.com/Srividhya09/GeoVision-Comparative-Analysis-of-AI-Super-Resolution-Models) | Compared 4 AI super-resolution architectures on real satellite imagery | Python, PyTorch, SRCNN, EDSR, SRGAN, RCAN, Streamlit |
 
 ---
 
